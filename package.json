@@ -1,0 +1,25 @@
+{
+  "name": "review-flag-action",
+  "version": "0.0.1",
+  "description": "github action to highlight lines marked for review in pull requests",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.1",
+    "parse-diff": "^0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmon/review-flag-action.git"
+  },
+  "author": "bmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmon/review-flag-action/issues"
+  },
+  "homepage": "https://github.com/bmon/review-flag-action#readme"
+}
